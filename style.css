@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+
+
+
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+section {
+
+    margin: 10rem;
+    font-size: 22px;
+}
+
+
+form {
+    justify-content: center;
+    max-width: 400px;
+    margin: 5rem auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: #000000;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+
+
+.right-links {
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: relative;
+    right: -70rem;
+    width: 280px;
+}
+
+
+.bluebg {
+    background-color: #1d4fc4;
+    color: white;
+    font-family:cursive;
+
+    display: flex;
+
+    height: 312px;
+
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+
+
+
+}
+
+
+
+.cont {
+    background-color: #424f5e;
+
+    display: flex;
+
+    height: 312px;
+
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+}
+
+.image-container:hover .image-overlay {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.image-overlay p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.text-show-after-hover:hover a {
+    display: none!important;
+    position: relative;
+	display: inline-block;
+    overflow: hidden;
+}
+.text-show-after-hover:hover span{
+    display: block!important;
+    color: #000000;
+    
+}
+
+
+/* Add styles for the search container */
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: #000000;
+    padding: 20px;
+    border-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Add styles for the search location */
+.search-location {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+/* Add styles for the time container */
+.time-container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    max-width: 200px;
+}
+
+/* Add styles for the input fields inside the containers */
+.search-container label,
+.time-container label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.search-container input[type="text"],
+.time-container input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+}

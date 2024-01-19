@@ -1,0 +1,158 @@
+.button1,
+.button2,
+.button3,
+.button4,
+.button5,
+.button6,
+.button7,
+.button8 {
+	width: 100px;
+	height: 100px;
+	transition-duration: 0.5s;
+	border-radius: 75px;
+	cursor: pointer;
+
+	background-color: #04AA6D;
+	/* Green */
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+
+	border: 0px solid #ffffff;
+	/* Green */
+	position: relative;
+
+
+}
+
+/* .button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover,
+.button5:hover,
+.button6:hover,
+.button7:hover,
+.button8:hover {
+	width: 75px;
+	height: 100px;
+	border-radius: 75px;
+
+	width: 1000px;
+} */
+
+.button1:active,
+.button2:active,
+.button3:active,
+.button4:active,
+.button5:active,
+.button6:active,
+.button7:active,
+.button8:active {
+	transition-duration: 0s;
+	transform: translateY(8px);
+
+}
+
+.button2 {
+	top: 50%;
+	left: 50%;
+	background-position: center;
+	background: url('info1.png') no-repeat;
+	background-size: contain;
+	/* Adjust as needed */
+}
+
+
+*/ .button3 {
+	background: url(Images/contact1.jpg);
+	background-size: 75px;
+}
+
+.button3:hover {
+	background: url(Images/contact2.jpg);
+	background-size: 75px;
+}
+
+.button4 {
+	background: url(Images/wrack.jpg);
+	background-size: 75px;
+}
+
+.button4:hover {
+	background: url(Images/o.jpg);
+	background-size: 75px;
+}
+
+.button5 {
+	background: url(Images/q.jpg);
+	background-size: 75px;
+}
+
+.button5:hover {
+	background: url(Images/p.jpg);
+	background-size: 75px;
+}
+
+.button6 {
+	background-color: #8c8c8c;
+	color: black;
+	position: absolute;
+	top: 130px;
+	left: 30px;
+}
+
+.button6:hover {
+	background-color: black;
+	color: #8c8c8c;
+}
+
+.button7 {
+	background-color: #8c8c8c;
+	color: black;
+	position: absolute;
+	top: 230px;
+	left: 30px;
+}
+
+.button7:hover {
+	background-color: black;
+	color: #8c8c8c;
+}
+
+.button8 {
+	background-color: #8c8c8c;
+	color: black;
+	position: absolute;
+	top: 330px;
+	left: 30px;
+}
+
+.button8:hover {
+	background-color: black;
+	color: #8c8c8c;
+}
+
+.button-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	/* Set text color */
+	z-index: 1;
+	/* Ensure text is above the background image */
+	display: none;
+	/* Hide text by default */
+}
+
+
+
+.center {
+	margin: 0;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+
+	transform: translate(-40%, -40%);
+}
